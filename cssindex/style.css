@@ -1,0 +1,46 @@
+/*
+    RESET
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+    HEADER
+*/
+.schede{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    
+}
+
+.logo img{
+    max-height: 20px;
+}
+
+
+
+
+/*
+    DEBUG
+*/
+.debug .schede{
+    height: 40px;
+    background-color: orange;
+}
+.debug .my-row-card{
+    background-color: pink;
+    height: 400px;
+    width: 300px;
+    
+}
