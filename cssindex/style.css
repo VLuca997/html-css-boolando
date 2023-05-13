@@ -37,14 +37,15 @@ header{ /* FISSO */
 header .menu .Gender a{
     font-size: large;
     text-decoration: none;
-    margin-right: 5px;
     color: white;
 }
+header .menu .Gender .man{
+    padding: 0 10px;
+}
+
 .logo{
     height: 30px;
 }
-header .menu .gender .action-account{
-    font-size: large;
-    margin-right: 5px;
-    color: white;
+.action-account .fa-heart{
+    padding: 0 5px;
 }
