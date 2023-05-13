@@ -49,3 +49,123 @@ header .menu .Gender .man{
 .action-account .fa-heart{
     padding: 0 5px;
 }
+
+/*
+main
+*/
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.column{
+    width: calc((100% / 3) - 20px);
+    margin: 10px;
+}
+main{
+    padding: 50px;
+    margin-top: 60px;
+
+}
+main .card{
+    margin-bottom: 50px;
+}
+main .card .card-up {
+    position: relative;
+}
+
+main .card .card-up img{
+    width: 100%;
+    display: block;
+}
+main .card .card-up .wishlist{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 35px;
+}
+main .card .card-up .tags{
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+}
+main .card .card-up .tags .tag{
+    padding: 4px 8px;
+    color: black;
+    font-size: normal;
+    font-weight: bold;
+    display: inline-block;
+}
+main .card .card-up .tags .sale{
+    background-color: red;
+
+}
+main .card .card-up .tags .sustainability{
+    background-color: green;
+}
+main .card .card-down .brand{
+    font-size: small;
+    font-weight: normal;
+    
+    
+}
+main .card .card-down .discount-price{
+    font-weight: bold;
+    color: black;
+    margin-right: 5px;
+}
+main .card .card-down .original-price{
+    text-decoration: line-through;
+    font-weight: bold;
+    color: red;
+}
+
+/*  
+    HOVER
+*/
+
+main .card .card-up .secondary-img{
+    display: none;
+}
+main .card .card-up:hover .secondary-img{
+    display: block;
+}
+main .card .card-up:hover .primary-img{
+    display: none;
+}
+
+
+
+
+/*
+    footer
+*/
+footer{
+    background-color: #000000;
+    color: white;
+}
+footer .info{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+footer .info a {
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 5px;
+    color: white;
+}
+footer .info i{
+    padding: 0 5px;
+    margin-top: 10px;
+
+}
