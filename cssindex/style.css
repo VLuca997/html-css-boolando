@@ -7,40 +7,44 @@
     box-sizing: border-box;
 }
 
-/*
-    HEADER
-*/
-.schede{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
-
-}
-
-.container {
-    margin: 0 auto;
+.container{
     width: 1200px;
-    
-}
-
-.logo img{
-    max-height: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 
 
 
 /*
-    DEBUG
+header
 */
-.debug .schede{
-    height: 40px;
-    background-color: orange;
+header{ /* FISSO */
+    width: 100%;
+    background-color: #ff6900;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
-.debug .my-row-card{
-    background-color: pink;
-    height: 400px;
-    width: 300px;
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
     
+}
+header .menu .Gender a{
+    font-size: large;
+    text-decoration: none;
+    margin-right: 5px;
+    color: white;
+}
+.logo{
+    height: 30px;
+}
+header .menu .gender .action-account{
+    font-size: large;
+    margin-right: 5px;
+    color: white;
 }
