@@ -1,5 +1,5 @@
 /*
-    RESET
+    RESET esercizio bonus
 */
 *{
     margin: 0;
@@ -118,13 +118,18 @@ main .card .card-down .brand{
 }
 main .card .card-down .discount-price{
     font-weight: bold;
-    color: black;
+    color: red;
     margin-right: 5px;
+}
+.no-sales{
+    text-decoration: none !important;
+    font-weight: bold;
+    color: BLACK;
 }
 main .card .card-down .original-price{
     text-decoration: line-through;
     font-weight: bold;
-    color: red;
+    color: BLACK;
 }
 
 /*  
